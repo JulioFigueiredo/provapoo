@@ -1,0 +1,16 @@
+package provafinal;
+
+public class QuickEmoticonMsg {
+	String SMILE_FACE = ":D";
+	String SAD_FACE = ":/";
+	String CRYING_FACE ="T-T";
+	String SURPRISE_FACE = ":O";
+	String HEART = "<3";
+	
+  String QuickEmoticonMsg(String Remente, String Destinatario, int opcao){
+	
+    
+  }	
+	
+	
+}
