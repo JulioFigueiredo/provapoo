@@ -1,0 +1,18 @@
+package provafinal;
+
+	class MsgInvalidaException extends RuntimeExcpetion{
+		MsgInvalidaException(String texto){
+			if(texto == null);
+		}
+}
+
+
+package provafinal;
+
+public class WTDisconnectedException extends Exception {
+	WTDisconnectedException(Boolean estaOnline){
+		if(estaOnline == false){
+			System.out.println("Usuario offline");
+		}
+	}
+}
