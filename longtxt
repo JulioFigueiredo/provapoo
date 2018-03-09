@@ -1,0 +1,8 @@
+package provafinal;
+
+public class LongTextMsg {
+	LongTextMsg(String Remetente, String Destinatario, String texto){
+	if (texto == null){
+		throw MsgInvalidaException;
+	}
+}}
