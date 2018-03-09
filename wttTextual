@@ -1,0 +1,55 @@
+package provafinal;
+
+public class WTTextual {
+	String nickname;
+	boolean estaOnline;
+	Mensagem msgAtual;
+	
+	WTTextual (String nickname){
+		
+	}
+	public void enviarMsg(WTTextual dest, int opc){
+		if ( estaOnline == true){
+			QuickEmoticonMsg mensagem = new QuickEmoticonMsg(opc);
+			dest = nickname;
+			}
+		else if (estaOnline == false){
+		   throw WTDisconnectedException;
+		}
+		
+	}
+	
+	public void enviarMsg(WTTextual dest, String txt){
+		
+	}
+
+	public void conectar(){
+		estaOnline = true;
+	}
+	public void desconectar(){
+		estaOnline = false;
+	}
+	String verStatus(){
+		if (estaOnline == true){
+			System.out.println("está online :)");
+		}
+		else if (estaOnline == false){
+			System.out.println("está offline :(");
+			
+		}return nickname;
+	}
+	Boolean estaOnline(){
+		if (estaOnline == true){
+			return true;}
+		else if(estaOnline == false){
+			return false;
+		}
+		}
+	
+	public void receberMsg(Mensagem m){
+		
+		
+	}
+
+}
+
