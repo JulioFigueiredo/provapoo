@@ -1,0 +1,10 @@
+package provafinal;
+
+public class Main {
+	WTTextual usu1 = new WTTextual();
+	WTTextual usu2=  new WTTextual();
+
+	usu1.Conectar();
+	usu2.Conectar();
+
+}
