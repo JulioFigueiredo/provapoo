@@ -1,0 +1,21 @@
+package provafinal;
+
+public abstract class Mensagem {
+	String Remetente;
+	String Conteudo;
+	WTTextual Destinatario;
+	
+	public Mensagem(String Remetente, WTTextual Destinatario){
+		 
+	 } 	
+	String getRemetente(){
+			return Remetente;
+		}
+	WTTextual getDestinatario(){
+		return Destinatario;
+	}		
+	String verConteudo(){
+		return Conteudo;
+	}
+
+}
